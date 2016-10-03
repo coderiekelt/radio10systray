@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Radio 10 Player.exe" version="1.0.0.1" publicKeyToken="79d1094306ef02ec" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Radio10-logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Radio 10 Player" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Radio 10 Player.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BntEPgTOwuPN3Yh21vuBNWEbTlhvXzNhBIg/gEyR0R4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YdYMKdn8m/w90N6QBW+WBYh8MlhBWx1Hve1//tln/uM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Radio 10 Player.exe" size="751128">
+      <assemblyIdentity name="Radio 10 Player" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Ue+TSK+ye+WhfOwQoDFT2xJDmUgQDkCqWwO2+zXCjMQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Radio 10 Player.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Radio10-logo.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TPMxNVH1SWE9UDxpEiWRznzK1kfyhDGql4Acfeb7wJw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-LSAUNMU\Riekelt Brands" issuerKeyHash="e4203dfe6bd78bef62d531c47b2c3751fed52b6f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Ocfb5y14LJDLmvNB/zC5UW2tuyiZu8RxHwXXhtO+VKc=</DigestValue></Reference></SignedInfo><SignatureValue>dULqPtky0bA3plqZkgyPKWL0V/wKZkiOZ7Ad9sW7L6Z5WlK5rBERtyMINu5Vx7Mz27YWDC+bUxMuQJX7npUrVD8YB4hjjv6h463BRU5MGfQ32IKXwK5pA2uIpPDK/MFQmytASmIN+30XMoBLthxXpw+e7nj1ZRz2mk5AiOQ3zgY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3MM2/zlA89AqveE9dRSM+/xNmK+dhk10/Mh7LXriWWs+/+pfe9/o9kJ1omtYu5P2okFS75yKcGBeckyRzgKvPKpD647CbXqK3cnOxwC1ZV6+HssGx9Cdt5JFGNvvFLhryZex2QiZLkhqhwP+U0GYiqvZvWxAI97TDGBM/xYwxEE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a754bed386d7051f71c4bb9928bbad6d51b930ff41f39acb902c782de7dbc739" Description="" Url=""><as:assemblyIdentity name="Radio 10 Player.exe" version="1.0.0.1" publicKeyToken="79d1094306ef02ec" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-LSAUNMU\Riekelt Brands</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>If2e305l8/CYYwc831oSOY054e8iK4034+QZ1soXy3o=</DigestValue></Reference></SignedInfo><SignatureValue>pVPWl4qmoWdf4cAN5DVDwbF4f3uFZXbq3/iGgJiJo9TpWdnv4URRCKE0PqI2kEeLXQnbOJBqc0iaL1hqIPbsrpIXnnYjNB6P7ww3E4YnmbS9DryQ603HnUpVyOh61snwPrZeNlCLjD7ilCoblkSNHyxdGw47DpvR7o9M2Wt73R8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3MM2/zlA89AqveE9dRSM+/xNmK+dhk10/Mh7LXriWWs+/+pfe9/o9kJ1omtYu5P2okFS75yKcGBeckyRzgKvPKpD647CbXqK3cnOxwC1ZV6+HssGx9Cdt5JFGNvvFLhryZex2QiZLkhqhwP+U0GYiqvZvWxAI97TDGBM/xYwxEE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQQyfy4gdIIJhMScMslVqdRzANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDHjwARABFAFMASwBUAE8AUAAtAEwAUwBBAFUATgBNAFUAXABSAGkAZQBrAGUAbAB0ACAAQgByAGEAbgBkAHMwHhcNMTYxMDAzMTgyMzA3WhcNMTcxMDA0MDAyMzA3WjBHMUUwQwYDVQQDHjwARABFAFMASwBUAE8AUAAtAEwAUwBBAFUATgBNAFUAXABSAGkAZQBrAGUAbAB0ACAAQgByAGEAbgBkAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANzDNv85QPPQKr3hPXUUjPv8TZivnYZNdPzIey164llrPv/qX3vf6PZCdaJrWLuT9qJBUu+cinBgXnJMkc4CrzyqQ+uOwm16it3JzscAtWVevh7LBsfQnbeSRRjb7xS4a8mXsdkImS5IaocD/lNBmIqr2b1sQCPe0wxgTP8WMMRBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAGUO8fvFEHkpaeHfJNYI0upyZguKqHO8RzZ64Bpo28Xp3tI1gKkCOvU2mIkUYFzhHlf0ov8zr5juR/nIJsJAbcsk3eeLTa6MrDOdgBi22pDDia1tVRjJX4COq6pub078ri0xisJ/5gm9m72FJKXucuI+OJFUn4W/kqsxJnjdSHuk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

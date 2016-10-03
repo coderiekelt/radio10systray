@@ -1,0 +1,18 @@
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\obj\Debug\Radio10.csprojResolveAssemblyReference.cache
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\obj\Debug\Radio10.frmMain.resources
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\obj\Debug\Radio10.Properties.Resources.resources
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\obj\Debug\Radio10.csproj.GenerateResource.Cache
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\bin\Debug\Interop.WMPLib.dll
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\obj\Debug\Interop.WMPLib.dll
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\obj\Debug\Radio10.csproj.ResolveComReference.cache
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\bin\Debug\Radio 10 Player.exe.config
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\bin\Debug\Radio 10 Player.exe.manifest
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\bin\Debug\Radio 10 Player.application
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\bin\Debug\Radio 10 Player.exe
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\bin\Debug\Radio 10 Player.pdb
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\obj\Debug\Radio 10 Player.exe.manifest
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\obj\Debug\Radio 10 Player.application
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\obj\Debug\Radio 10 Player.exe
+C:\Users\Riekelt Brands\Documents\Visual Studio 2015\Projects\Radio10\obj\Debug\Radio 10 Player.pdb
